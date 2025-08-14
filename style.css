@@ -32,6 +32,14 @@ body{
   padding: 16px 20px; background: rgba(255,255,255,0.04); backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255,255,255,.08);
   color:#fff;
+  header h1 {
+  font-weight: bold;
+  font-size: 2em;            /* Bigger text */
+  color: #ffffff;            /* White for contrast */
+  text-transform: uppercase; /* All caps for emphasis */
+  letter-spacing: 2px;       /* More spacing between letters */
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4); /* Glow/Shadow effect */
+  }
 }
 .brand{font-weight:800; letter-spacing:.3px}
 .search{
