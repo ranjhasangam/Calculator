@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harsh Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Harsh Project</div>
+    <input id="search" class="search" type="text" placeholder="Search calculators…" />
+  </header>
+
+  <main id="categories" class="container"></main>
+
+  <footer class="site-footer fixed">© Harshvardhan</footer>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+      <div class="modal-head">
+        <div class="modal-icon" id="modalIcon"></div>
+        <h2 id="modalTitle" class="modal-title"></h2>
+        <div id="modalTag" class="modal-tag"></div>
+      </div>
+      <form id="calcForm" class="form"></form>
+
+      <div id="result" class="result hidden">
+        <div class="kpi">
+          <div class="kpi-label">Main Result</div>
+          <div id="mainResult" class="kpi-value"></div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Total Invested</div>
+          <div id="invested" class="kpi-value"></div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Profit</div>
+          <div id="profit" class="kpi-value"></div>
+        </div>
+        <div id="moreDetails" class="more"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+<footer>© Harshvardhan</footer>
+</body>
+</html>
